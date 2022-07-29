@@ -56,3 +56,9 @@ h1{
     font-family: 'Mochiy Pop One', sans-serif;
     
 }
+
+.polologo{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
