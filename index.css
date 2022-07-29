@@ -1,0 +1,59 @@
+* {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    
+}
+
+body{
+    margin: 0%;
+    
+}
+
+ .header{
+    background-color: #041E3A;
+    height: 13vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+    box-shadow: 0 0.1px 0 0 rgba(0,0,0,);
+    -webkit-box-shadow: 0 3.5px 0 0 rgb(0, 0, 0);
+    -moz-box-shadow: 0 0.1px 0 0 rgba(0,0,0,);
+    
+ }
+
+ .logo{
+    height: 100px;
+    margin-left: 40px;
+}
+
+.nav{
+    list-style: none;
+    display: flex;
+    
+    
+}
+.optione{
+    list-style: none;
+    display: inline-flex;
+    margin: 10px;
+    text-decoration: underline;
+    color: white;
+
+}
+
+.prc{
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    margin-right: 430px;
+    color: beige;
+    font-size: 33px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 4vh;
+    font-family: 'Mochiy Pop One', sans-serif;;
+}
