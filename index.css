@@ -44,16 +44,15 @@ body{
 }
 
 .prc{
-    display: flex;
-    justify-content: center;
-    align-content: flex-start;
-    margin-right: 430px;
     color: beige;
     font-size: 33px;
+    text-decoration: overline double indianred;
+    
 }
 h1{
     display: flex;
     justify-content: center;
     font-size: 4vh;
-    font-family: 'Mochiy Pop One', sans-serif;;
+    font-family: 'Mochiy Pop One', sans-serif;
+    
 }
