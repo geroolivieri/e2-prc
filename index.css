@@ -1,14 +1,16 @@
-* {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 25px;
-    
-}
+
 
 body{
     margin: 0%;
+    border: 0%;
     
 }
-
+.maindiv{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
  .header{
     background-color: #041E3A;
     height: 13vh;
@@ -16,7 +18,7 @@ body{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    
+    position: fixed;
     box-shadow: 0 0.1px 0 0 rgba(0,0,0,);
     -webkit-box-shadow: 0 3.5px 0 0 rgb(0, 0, 0);
     -moz-box-shadow: 0 0.1px 0 0 rgba(0,0,0,);
@@ -24,7 +26,7 @@ body{
  }
 
  .logo{
-    height: 100px;
+    height: 12vh;
     margin-left: 40px;
 }
 
@@ -40,25 +42,118 @@ body{
     margin: 10px;
     text-decoration: underline;
     color: white;
-
+    font-family: 'Bebas Neue', cursive;
+    color: beige;
+    font-size: 1.5em;
 }
 
 .prc{
+    font-family: 'Bebas Neue', cursive;
     color: beige;
     font-size: 33px;
-    text-decoration: overline double indianred;
+    text-decoration: overline double rgba(248, 33, 33, 0.808);
     
 }
-h1{
-    display: flex;
-    justify-content: center;
-    font-size: 4vh;
-    font-family: 'Mochiy Pop One', sans-serif;
-    
-}
+
+
 
 .polologo{
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 20px
 }
+
+.divsectionone {
+    background-color:rgb(139,0,0);
+color: beige;
+   width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+    
+   
+    
+}
+.sectionone{
+    display: flex;
+    flex-direction: column;
+    
+}
+.sectiondivone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;  
+    
+    
+    
+}
+.divh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.firstinsone{
+    font-size: 1.9em;
+    font-weight: 300;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    width: 100%;
+    
+}
+
+.secinsone{
+        font-size: 1.9em;
+        font-weight: 300;
+        font-family: 'Oswald', sans-serif;
+        margin: 0;
+        width: 100%;
+}
+    .divpslogo{
+        width: 40%;
+    }
+    .pinsone{
+        font-size: 1.1em;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 300;
+    }
+    .buttoninsone{
+        width: 60%;
+    height: 45px;
+    background-color: #041E3A;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 12px;
+    border-style: none;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    padding: 0;
+    }
+
+    .divinsectiontwo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+        
+        
+    }
+    .sectiontwo{
+        background-color: #041E3A;
+        height: 100%;
+        width: 100%;
+    }
+    
+    
+     .psrlusflag{
+        height: 80%;
+        width: 70%;
+     }
+    
