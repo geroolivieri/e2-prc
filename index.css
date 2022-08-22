@@ -10,6 +10,7 @@ body{
     width: 100%;
     height: 100%;
     flex-wrap: wrap;
+    
 }
  .header{
     background-color: #041E3A;
@@ -36,6 +37,9 @@ body{
     
     
 }
+.ul{
+    display: flex;
+}
 .optione{
     list-style: none;
     display: inline-flex;
@@ -45,6 +49,7 @@ body{
     font-family: 'Bebas Neue', cursive;
     color: beige;
     font-size: 1.5em;
+    
 }
 
 .prc{
@@ -84,20 +89,20 @@ color: beige;
     flex-direction: column;
     
 }
+
 .sectiondivone{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 80px;  
-    
-    
-    
 }
+
 .divh{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
     
 }
 .firstinsone{
@@ -117,6 +122,7 @@ color: beige;
         width: 100%;
 }
     .divpslogo{
+        
         width: 40%;
     }
     .pinsone{
@@ -226,4 +232,83 @@ color: beige;
      color: white;
     }
 
+   .bscard{
+    margin: 0%;
+    width: 100%;
+    height: 90%;
+    background-color: #041E3A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   }
+   .divbstitle{
+    color: beige;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.3em;
+    animation-name: trasladar;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+   }
+
+   @keyframes trasladar{
+    0% {
+        transform: translateY(0px);
+        
+    }
+    50%{
+        
+        transform: translateY(9px);
+    }
+    100%{
+        color: white;
+    }
+   }
+.cardd{
+    background-color: #041E3A;
+    color: beige;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+   .cardd:hover{
+background-color: #8B0000;
+-webkit-transition: background 0.5s 0s ease;
+-moz-transition: background 0.5s 0s ease;
+-o-transition: background 0.5s 0s ease;
+transition: background 0.5s 0s ease;
+   }
+ 
+   .card{
+    position: inherit;
+   }
+
+   .us{
+    background-color: #041e3afa;
+    height: 70%;
+    display: flex;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Bebas Neue', cursive;
+    
+   }                                                                                                     
+
    
+   .lastlogo{
+    height: 59%;
+   }
+   .contact{
+    flex-direction: row;
+   }
+ .us p{
+    font-size: 1.1em;
+    font-family: 'Oswald', sans-serif;
+
+ }
+.us i{
+    font-size: 1.1em;
+}
