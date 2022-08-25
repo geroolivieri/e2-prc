@@ -163,7 +163,7 @@ color: beige;
         align-items: center;
         display: flex;
         flex-direction: column;
-        
+        gap: 18px;
     }
     .sectwodesc p{
         margin: 0;
@@ -315,61 +315,112 @@ transition: background 0.5s 0s ease;
     font-size: 1.1em;
 }
 
-@media (max-width: 576px) {
 
+@media (max-width: 374px) {
     .header{
-    width: 576px;
-    
-}
-.ul{
-    width: 2px;
-    margin: 0px;
-    font-size: 12px;
-    
-}
-.nav{
-    width: 100%;
-    
-   
-}
-.prc{
-    font-size: 4.4vh;
-    text-decoration: none;
-    
-}
-.logo{
-margin-left: 10px;
-width: 60%;
+        width: 374px;
+        
+    }
 
-}
-.divh{
-    width: 100%;
-    font-size: 20px;
-    gap: 10px;
-    height: 100%;
+    .ul{
+        width: 80%;
+        margin: 0;
+        font-size: 11px;
+        flex-direction: column;
+        
+        
+    }
+    .nav{
+        width: 100%;
+        height: 12vh;
+    }
 
-}
-.buttoninsone{
-    font-size: 20px;
-    width: 40%;
+    .optione{
+        margin: 0;
+        justify-content: center;
+        text-decoration: none;
+        
+        
+    }
+    .prc{
+        font-size: 3.4vh;
+        text-decoration: none;
+        
+    }
+
+
+    .divh{
+        width: 100%;
+        font-size: 15px;
+        gap: 5px;
+        height: 80%;
     
-}
-.pslogo{
- width: 100%;
-    height: 30vh;
-}
-.sectiondivone{
-    flex-direction: column;
-}
-.psrlusflag{
-    width: 80%;
-    margin-left: 60px
-    
-    
-}
+    }
+
+    .buttoninsone{
+        font-size: 15px;
+        width: 32%;
+        height: 50px;
+    }
+
+
+    .pslogo{
+    width: 60vw;
+    margin-left: 80px;
+
+    }
+
+    .sectiondivone{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+
+    .psrlusflag{
+       
+    width: 100%;
+
+        
+        
+    }
+    .sectwodesc{
+        width: 100%;
+        height: 20%;
+    }
 .sectwodesc p{
-font-size: 17px;
-width: 90%;
+    font-size: 20px;
+}
+    .card-group{
+display: none
+    }
+    
+.divbstitle{
+    justify-content: space-between;
+    animation-name: asd;
+}
+
+.pololp{
+
+    width: 80%;
+    
+}
+
+
+.lastlogo{
+    height: 46%;
+}
+
+.us{
+    height: 65%;
+}
+.bscard{
+    display: flex;
+    
+}
+.bscard h2{
+    margin-bottom: 0px;
+    font-size: 1em;
+    padding: 0px 10px;
+    text-decoration: line-through rgb(139, 0, 0);
 }
 }
 
