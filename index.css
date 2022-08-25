@@ -316,14 +316,14 @@ transition: background 0.5s 0s ease;
 }
 
 
-@media (max-width: 374px) {
+@media (max-width: 375px) {
     .header{
-        width: 374px;
+        width: 375px;
         
     }
 
     .ul{
-        width: 80%;
+        width: 70%;
         margin: 0;
         font-size: 11px;
         flex-direction: column;
