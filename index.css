@@ -378,7 +378,16 @@ transition: background 0.5s 0s ease;
         .pololp{
             width: 100%;
         }
-
+        .divbstitle{
+            justify-content: space-between;
+            animation-name: asd;
+        }
+        .bscard h2{
+            margin-bottom: 0px;
+            font-size: 2em;
+            padding: 0px 10px;
+            text-decoration: line-through rgb(139, 0, 0);
+        }
 }
 @media (max-width: 375px) {
     .header{
